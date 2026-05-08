@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setPage, toggleCart, toggleAuth } from '../redux/actions/uiActions';
 import '../styles/header.css';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setPage } from '../redux/actions/uiActions';
 import ProductCard from '../components/ProductCard';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setProductFilter, setProductSearch, setProductSort, setProductPriceRange } from '../redux/actions/productActions';
 import ProductCard from '../components/ProductCard';
