@@ -3,8 +3,8 @@ export const AUTH_LOGOUT = 'AUTH_LOGOUT';
 export const AUTH_REGISTER = 'AUTH_REGISTER';
 export const AUTH_SET_ERROR = 'AUTH_SET_ERROR';
 
+// eslint-disable-next-line no-unused-vars
 export const login = (email, password) => {
-    void password;
     return {
         type: AUTH_LOGIN,
         payload: {
@@ -21,8 +21,8 @@ export const logout = () => {
     };
 };
 
+// eslint-disable-next-line no-unused-vars
 export const register = (name, email, password) => {
-    void password;
     return {
         type: AUTH_REGISTER,
         payload: {
