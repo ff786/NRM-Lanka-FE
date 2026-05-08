@@ -3,7 +3,8 @@ export const AUTH_LOGOUT = 'AUTH_LOGOUT';
 export const AUTH_REGISTER = 'AUTH_REGISTER';
 export const AUTH_SET_ERROR = 'AUTH_SET_ERROR';
 
-export const login = (email) => {
+export const login = (email, password) => {
+    void password;
     return {
         type: AUTH_LOGIN,
         payload: {
@@ -20,7 +21,8 @@ export const logout = () => {
     };
 };
 
-export const register = (name, email) => {
+export const register = (name, email, password) => {
+    void password;
     return {
         type: AUTH_REGISTER,
         payload: {
