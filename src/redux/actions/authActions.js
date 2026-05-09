@@ -9,6 +9,7 @@ export const login = (email, password) => {
         payload: {
             email,
             name: 'Customer',
+            hasPassword: Boolean(password),
             isLoggedIn: true,
         },
     };
@@ -26,6 +27,7 @@ export const register = (name, email, password) => {
         payload: {
             name,
             email,
+            hasPassword: Boolean(password),
             isLoggedIn: true,
         },
     };

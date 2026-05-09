@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/actions/cartActions';
 import { showNotification } from '../redux/actions/uiActions';

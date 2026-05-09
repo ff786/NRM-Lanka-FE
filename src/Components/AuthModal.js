@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, register } from '../redux/actions/authActions';
 import { toggleAuth } from '../redux/actions/uiActions';
